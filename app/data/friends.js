@@ -1,0 +1,171 @@
+// ===============================================================================
+// DATA
+// Below data will hold all of the reserved tables.
+// Initially we just set it equal to a "dummy" customer.
+// But you could have it be an empty array as well.
+// ===============================================================================
+var friends = [
+  {
+      "name":"Ahmed",
+      "photo":"http://www.faculty.ece.vt.edu/aabdelhadi/Ahmed_Abdelhadi.jpg",
+      "scores":[
+         5,
+         1,
+         4,
+         4,
+         5,
+         1,
+         2,
+         5,
+         4,
+         1
+          ]
+      },
+  {
+  "name":"Kevin",
+  "photo":"https://en.wikipedia.org/wiki/Kevin_Poulsen#/media/File:Kevin_Poulsen_2014.png",
+  "scores":[
+     5,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Angelina",
+  "photo":"http://vignette4.wikia.nocookie.net/harrypotter/images/d/d7/Angeina_john.jpg/",
+  "scores":[
+     9,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Karina",
+  "photo":"https://pbs.twimg.com/profile_images/646073109838213120/iiwOYC3e.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Miriam",
+  "photo":"https://upload.wikimedia.org/wikipedia/commons/0/07/Miriam_Shaded_Sejm_2016.JPG",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Lisa",
+  "photo":"https://yt3.ggpht.com/-9bNdIDrLvWA/AAAAAAAAAAI/AAAAAAAAAAA/eyEzuxSoDzQ/s900-c-k-no-mo-rj-c0xffffff/photo.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Nicole",
+  "photo":"http://www.wri.org/sites/default/files/NicoleGiffen5.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Jason",
+  "photo":"https://pbs.twimg.com/profile_images/792256433035378690/lfXLtQVy_400x400.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Nate",
+  "photo":"http://www.nateberkus.com/wp-content/uploads/2015/09/nate-berkus-interior-designer.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Ken",
+  "photo":"http://goldberg.berkeley.edu/ken-photos/kathrin-miller/ken-goldberg-head-km3-300dpi.jpg",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+}
+]
+
+// Note how we export the array. This makes it accessible to other files using require.
+module.exports = friends;
